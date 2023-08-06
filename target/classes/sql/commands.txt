@@ -1,0 +1,15 @@
+CREATE DATABASE testUser;
+
+USE testUser;
+
+CREATE TABLE user(
+	id INT,
+	name VARCHAR(20),
+	isActive BOOLEAN
+);
+
+INSERT INTO user VALUES
+(100, "John", true);
+
+SELECT * FROM user;
+
